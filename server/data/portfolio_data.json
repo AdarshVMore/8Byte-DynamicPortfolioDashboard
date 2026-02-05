@@ -1,0 +1,280 @@
+{
+  "sectors": [
+    {
+      "name": "Financial Sector",
+      "stocks": [
+        {
+          "id": "stock_1",
+          "name": "State Bank of India",
+          "symbol": "SBIN",
+          "purchasePrice": 520,
+          "quantity": 100,
+          "investment": 52000,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_2",
+          "name": "HDFC Bank",
+          "symbol": "HDFCBANK",
+          "purchasePrice": 1490,
+          "quantity": 50,
+          "investment": 74500,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_3",
+          "name": "ICICI Bank",
+          "symbol": "ICICIBANK",
+          "purchasePrice": 920,
+          "quantity": 75,
+          "investment": 69000,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_4",
+          "name": "Axis Bank",
+          "symbol": "AXISBANK",
+          "purchasePrice": 1050,
+          "quantity": 40,
+          "investment": 42000,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_5",
+          "name": "Kotak Mahindra Bank",
+          "symbol": "KOTAKBANK",
+          "purchasePrice": 1780,
+          "quantity": 30,
+          "investment": 53400,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_6",
+          "name": "Bajaj Finance",
+          "symbol": "BAJFINANCE",
+          "purchasePrice": 6850,
+          "quantity": 15,
+          "investment": 102750,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_7",
+          "name": "HDFC Life Insurance",
+          "symbol": "HDFCLIFE",
+          "purchasePrice": 650,
+          "quantity": 80,
+          "investment": 52000,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_8",
+          "name": "SBI Life Insurance",
+          "symbol": "SBILIFE",
+          "purchasePrice": 1420,
+          "quantity": 35,
+          "investment": 49700,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_9",
+          "name": "IndusInd Bank",
+          "symbol": "INDUSINDBK",
+          "purchasePrice": 1380,
+          "quantity": 45,
+          "investment": 62100,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_10",
+          "name": "LIC Housing Finance",
+          "symbol": "LICHSGFIN",
+          "purchasePrice": 410,
+          "quantity": 120,
+          "investment": 49200,
+          "exchange": "NSE"
+        }
+      ]
+    },
+    {
+      "name": "Technology Sector",
+      "stocks": [
+        {
+          "id": "stock_11",
+          "name": "Tata Consultancy Services",
+          "symbol": "TCS",
+          "purchasePrice": 3580,
+          "quantity": 25,
+          "investment": 89500,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_12",
+          "name": "Infosys",
+          "symbol": "INFY",
+          "purchasePrice": 1520,
+          "quantity": 60,
+          "investment": 91200,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_13",
+          "name": "Wipro",
+          "symbol": "WIPRO",
+          "purchasePrice": 420,
+          "quantity": 150,
+          "investment": 63000,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_14",
+          "name": "HCL Technologies",
+          "symbol": "HCLTECH",
+          "purchasePrice": 1180,
+          "quantity": 55,
+          "investment": 64900,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_15",
+          "name": "Tech Mahindra",
+          "symbol": "TECHM",
+          "purchasePrice": 1250,
+          "quantity": 50,
+          "investment": 62500,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_16",
+          "name": "LTI Mindtree",
+          "symbol": "LTIM",
+          "purchasePrice": 5420,
+          "quantity": 12,
+          "investment": 65040,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_17",
+          "name": "Persistent Systems",
+          "symbol": "PERSISTENT",
+          "purchasePrice": 4850,
+          "quantity": 15,
+          "investment": 72750,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_18",
+          "name": "Coforge",
+          "symbol": "COFORGE",
+          "purchasePrice": 5620,
+          "quantity": 10,
+          "investment": 56200,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_19",
+          "name": "Mphasis",
+          "symbol": "MPHASIS",
+          "purchasePrice": 2180,
+          "quantity": 28,
+          "investment": 61040,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_20",
+          "name": "L&T Technology Services",
+          "symbol": "LTTS",
+          "purchasePrice": 4320,
+          "quantity": 14,
+          "investment": 60480,
+          "exchange": "NSE"
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure & Pipe Sector",
+      "stocks": [
+        {
+          "id": "stock_21",
+          "name": "Larsen & Toubro",
+          "symbol": "LT",
+          "purchasePrice": 3280,
+          "quantity": 20,
+          "investment": 65600,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_22",
+          "name": "UltraTech Cement",
+          "symbol": "ULTRACEMCO",
+          "purchasePrice": 8950,
+          "quantity": 8,
+          "investment": 71600,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_23",
+          "name": "Tata Steel",
+          "symbol": "TATASTEEL",
+          "purchasePrice": 128,
+          "quantity": 500,
+          "investment": 64000,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_24",
+          "name": "Jindal Steel & Power",
+          "symbol": "JINDALSTEL",
+          "purchasePrice": 820,
+          "quantity": 80,
+          "investment": 65600,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_25",
+          "name": "Hindalco Industries",
+          "symbol": "HINDALCO",
+          "purchasePrice": 520,
+          "quantity": 125,
+          "investment": 65000,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_26",
+          "name": "GAIL India",
+          "symbol": "GAIL",
+          "purchasePrice": 185,
+          "quantity": 350,
+          "investment": 64750,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_27",
+          "name": "Indian Oil Corporation",
+          "symbol": "IOC",
+          "purchasePrice": 132,
+          "quantity": 480,
+          "investment": 63360,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_28",
+          "name": "NTPC",
+          "symbol": "NTPC",
+          "purchasePrice": 312,
+          "quantity": 200,
+          "investment": 62400,
+          "exchange": "NSE"
+        },
+        {
+          "id": "stock_29",
+          "name": "Power Grid Corporation",
+          "symbol": "POWERGRID",
+          "purchasePrice": 287,
+          "quantity": 220,
+          "investment": 63140,
+          "exchange": "NSE"
+        }
+      ]
+    }
+  ]
+}
