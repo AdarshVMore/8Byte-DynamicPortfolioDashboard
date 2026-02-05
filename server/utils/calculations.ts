@@ -1,4 +1,4 @@
-export function alculatePresentValue(quantity: number, cmp: number): number {
+export function calculatePresentValue(quantity: number, cmp: number): number {
   return quantity * cmp;
 }
 
