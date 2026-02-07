@@ -43,6 +43,28 @@ export async function fetchStockPrice(
   }
 }
 
+export async function fetchStockPrices(
+  symbols: string[],
+  exchange: 'NSE' | 'BSE'
+): Promise<Map<string, number>> {
+  const results = new Map<string, number>();
+
+  const promises = symbols.map(async (symbol) => {
+    const price = await fetchStockPrice(symbol, exchange);
+    return { symbol, price };
+  });
+
+  const settled = await Promise.allSettled(promises);
+
+  settled.forEach((result) => {
+    if (result.status === 'fulfilled' && result.value.price !== null) {
+      results.set(result.value.symbol, result.value.price);
+    }
+  });
+
+  return results;
+}
+
 export async function fetchMultipleStockPrices(
   stocks: Array<{ symbol: string; exchange: 'NSE' | 'BSE' }>
 ): Promise<Map<string, number | null>> {
